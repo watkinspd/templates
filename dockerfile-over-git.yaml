@@ -18,7 +18,7 @@ objects:
     output:
       to:
         kind: ImageStreamTag
-        name: dockerfile-over-git:latest
+        name: ${APPLICATION_NAME}:latest
     source:
       contextDir: ${CONTEXT_DIR}
       git:
